@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:playground/pages/HomePage.dart';
-import 'package:playground/pages/SettingsPage.dart';
-import 'package:playground/pages/profilePage.dart';
+import 'package:Squirrel/pages/HomePage.dart';
+import 'package:Squirrel/pages/SettingsPage.dart';
+import 'package:Squirrel/pages/profilePage.dart';
 
 //-------------------------------------------------//
 //             GOOGLE MAPS API KEY                 //
