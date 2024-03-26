@@ -1,16 +1,8 @@
-# playground
+# Squirrel (WIP)
+This is a project for the class Software Engineering (CS-390) at Coe College with professor Stephen Hughes, in collaboration with Jesse Ellis.
 
-A new Flutter project.
+## Main Goal
+The goal for this project is to develop a way to allow students at Coe College to participate in a "community science experiment". Our goal is to develop a cross-platform mobile app and a companion website that will allow users to capture images and data about squirrels around Coe's campus. The users will then be able to log in and see others' images and keep track of the squirrels. 
 
-## Getting Started
 
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Authors: Adolfo Calderon, Brahim El-Marrakechy, Calvin Greve, and Dylan Barras, with help from Stephen Hughes
