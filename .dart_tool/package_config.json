@@ -164,13 +164,13 @@
       "languageVersion": "3.0"
     },
     {
-      "name": "playground",
+      "name": "Squirrel",
       "rootUri": "../",
       "packageUri": "lib/",
       "languageVersion": "3.2"
     }
   ],
-  "generated": "2024-03-24T05:31:02.533745Z",
+  "generated": "2024-03-26T22:53:36.583767Z",
   "generator": "pub",
   "generatorVersion": "3.3.2"
 }

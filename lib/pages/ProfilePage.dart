@@ -2,7 +2,7 @@
 
 import "package:flutter/cupertino.dart";
 import "package:flutter/material.dart";
-import "package:playground/components/profile_image_container.dart";
+import "package:Squirrel/components/profile_image_container.dart";
 
 class ProfilePage extends StatelessWidget {
   const ProfilePage({Key? key}) : super(key: key);
