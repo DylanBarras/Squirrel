@@ -27,9 +27,9 @@ fake_async
 file:///C:/Users/dylan/AppData/Local/Pub/Cache/hosted/pub.dev/fake_async-1.3.1/
 file:///C:/Users/dylan/AppData/Local/Pub/Cache/hosted/pub.dev/fake_async-1.3.1/lib/
 flutter_lints
-2.19
-file:///C:/Users/dylan/AppData/Local/Pub/Cache/hosted/pub.dev/flutter_lints-2.0.3/
-file:///C:/Users/dylan/AppData/Local/Pub/Cache/hosted/pub.dev/flutter_lints-2.0.3/lib/
+3.1
+file:///C:/Users/dylan/AppData/Local/Pub/Cache/hosted/pub.dev/flutter_lints-3.0.2/
+file:///C:/Users/dylan/AppData/Local/Pub/Cache/hosted/pub.dev/flutter_lints-3.0.2/lib/
 leak_tracker
 3.1
 file:///C:/Users/dylan/AppData/Local/Pub/Cache/hosted/pub.dev/leak_tracker-10.0.0/
@@ -44,8 +44,8 @@ file:///C:/Users/dylan/AppData/Local/Pub/Cache/hosted/pub.dev/leak_tracker_testi
 file:///C:/Users/dylan/AppData/Local/Pub/Cache/hosted/pub.dev/leak_tracker_testing-2.0.1/lib/
 lints
 3.0
-file:///C:/Users/dylan/AppData/Local/Pub/Cache/hosted/pub.dev/lints-2.1.1/
-file:///C:/Users/dylan/AppData/Local/Pub/Cache/hosted/pub.dev/lints-2.1.1/lib/
+file:///C:/Users/dylan/AppData/Local/Pub/Cache/hosted/pub.dev/lints-3.0.0/
+file:///C:/Users/dylan/AppData/Local/Pub/Cache/hosted/pub.dev/lints-3.0.0/lib/
 matcher
 3.0
 file:///C:/Users/dylan/AppData/Local/Pub/Cache/hosted/pub.dev/matcher-0.12.16+1/
@@ -95,7 +95,7 @@ vm_service
 file:///C:/Users/dylan/AppData/Local/Pub/Cache/hosted/pub.dev/vm_service-13.0.0/
 file:///C:/Users/dylan/AppData/Local/Pub/Cache/hosted/pub.dev/vm_service-13.0.0/lib/
 Squirrel
-3.2
+3.3
 file:///C:/Users/dylan/Desktop/School/Software%20Engineering/Squirrel/
 file:///C:/Users/dylan/Desktop/School/Software%20Engineering/Squirrel/lib/
 sky_engine

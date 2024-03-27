@@ -5,17 +5,14 @@ import "package:flutter/material.dart";
 import "package:Squirrel/components/profile_image_container.dart";
 
 class ProfilePage extends StatelessWidget {
-  const ProfilePage({Key? key}) : super(key: key);
+  const ProfilePage({super.key});
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-
-      
       // Heading
       appBar: AppBar(
         title: const Text(
           'Profile',
-
           style: TextStyle(
             color: Colors.amber,
             fontSize: 24,
@@ -25,99 +22,113 @@ class ProfilePage extends StatelessWidget {
         centerTitle: true,
       ),
 
-      body: Column(
-        children: [
 
+      // TODO MAKE PAGE SCROLLABLE
+      body: Column(children: [
+      
+        
         // Profile Picture
-
+      
         Padding(
           padding: const EdgeInsets.only(
             top: 30,
-            ),
-          
+            bottom: 20,
+          ),
           child: Container(
-
             // Circle background
-
+      
             decoration: BoxDecoration(
               shape: BoxShape.circle,
               border: Border.all(color: Colors.black, width: 2),
               color: Colors.grey[300],
             ),
-
+      
             height: 140,
-
+            width: 140,
+      
             // Profile Icon
-            
+      
             child: const Icon(
-              
               CupertinoIcons.profile_circled,
               color: Colors.grey,
               size: 150,
-              
-              
             ),
           ),
         ),
-
+      
         // Username Text
-
-        const Padding(
-          padding: EdgeInsets.only(bottom: 20),
-          child: Text(
-
-
-            "Username", // this will need to be a variable later
-
-
-            style: TextStyle(
-              fontSize: 30,
-              fontWeight: FontWeight.bold,
+      
+        const Text(
+          "Username", // TODO DATABASE VARIABLE USERNAME
+      
+          style: TextStyle(
+            fontSize: 30,
+            fontWeight: FontWeight.bold,
+          ),
+        ),
+      
+        // Score
+      
+        Padding(
+          padding: const EdgeInsets.all(20),
+          child: Container(
+            height: 100,
+            width: 100,
+            decoration: BoxDecoration(
+              color: Colors.red[900],
+              shape: BoxShape.circle,
+              boxShadow: const [
+                BoxShadow(
+                    color: Colors.grey, offset: Offset(5, 5), blurRadius: 2)
+              ],
+            ),
+            child: Center(
+              child: Text("42", // // TODO DATABASE VARIABLE SCORE
+                  textAlign: TextAlign.center,
+                  style: TextStyle(
+                    fontSize: 50,
+                    fontWeight: FontWeight.bold,
+                    color: Colors.amber[900],
+                  )),
             ),
           ),
         ),
-
-
-        // Gallery Text
-
-        const Text(
-          
-          "My Gallery",
-          style: TextStyle(
-            fontSize: 20,
-            fontWeight: FontWeight.bold
-
-          )
-        ),
-
+      
         // Gallery View
-       
+      
         Expanded(
-          
           child: Container(
-            padding: const EdgeInsets.all(2.5),
-
-             // height: 50,
+              padding: const EdgeInsets.all(2.5),
+      
+              // height: 50,
               //width: MediaQuery.of(context).size.width, //- 10, // width of the screen size
-
+      
               alignment: Alignment.center,
-
-              decoration: BoxDecoration(
+              decoration: const BoxDecoration(
                 color: Colors.grey,
-               // borderRadius: BorderRadius.circular(0),
+                // borderRadius: BorderRadius.circular(0),
               ),
-
-              // Grid view 
-              
+      
+              // Grid view
+      
               child: GridView.builder(
                   itemCount: 11,
                   gridDelegate: const SliverGridDelegateWithFixedCrossAxisCount(
                       crossAxisCount: 3 // how many items in the ROW
                       ),
-
+      
                   // this builds the elements in a grid format
                   itemBuilder: (context, index) {
-                    return const ProfileImageContainer();
+                    return Stack(children: [
+                      const ProfileImageContainer(),
+
+                      // DEBUG
+                      Container(
+                          alignment: Alignment.bottomCenter,
+                          child: Text(
+                          (index + 1).toString(),
+                      )),
+                    ]); // TODO DATABASE VARIABLE IMAGES
                   })),
         )
       ]),

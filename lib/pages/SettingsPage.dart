@@ -3,7 +3,7 @@
 import "package:flutter/material.dart";
 
 class SettingsPage extends StatelessWidget {
-  const SettingsPage({Key? key}) : super(key: key);
+  const SettingsPage({super.key});
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -28,19 +28,31 @@ class SettingsPage extends StatelessWidget {
 
       ),
       body : Center(
-        child: Container(
-          decoration: BoxDecoration(
-            borderRadius: BorderRadius.circular(10),
-            color: Colors.black,
+
+        
+        child: Column(
+          children: [
+            const Padding(
+              padding: EdgeInsets.all(20.0),
+              child: Icon(Icons.build, size: 100, color: Colors.black,),
             ),
-          alignment: Alignment.center,
-          width: 300,
-          height: 300,
-          child: const Text(
-            "Settings page goes here!",
-            style: TextStyle( 
-              color: Colors.white),
-          ),  
+            // Spacer
+            Container(
+              decoration: BoxDecoration(
+                borderRadius: BorderRadius.circular(10),
+                color: Colors.black,
+                ),
+              alignment: Alignment.center,
+              width: 300,
+              height: 300,
+              
+              child: const Text(
+                "Settings page goes here!",
+                style: TextStyle( 
+                  color: Colors.white),
+              ),  
+            ),
+          ],
         ),
       )
     );

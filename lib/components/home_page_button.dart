@@ -6,11 +6,10 @@ class HomePageButton extends StatelessWidget {
   final String tooltip;
 
   const HomePageButton(
-      {Key? key,
+      {super.key,
       required this.tooltip,
       required this.buttonSize,
-      required this.buttonIcon})
-      : super(key: key);
+      required this.buttonIcon});
   @override
   Widget build(BuildContext context) {
     return Padding(

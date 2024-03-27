@@ -10,8 +10,9 @@ class ProfileImageContainer extends StatelessWidget {
   // parameters
   // required this.name,
   // required this.placeHolderIcon,
+  // TODO DATABASE VARIABLE USER IMAGES
   
-  }) : super(key: key);
+  });
 
 
   @override
