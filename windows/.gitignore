@@ -15,7 +15,3 @@ x86/
 *.[Cc]ache
 # but keep track of directories ending in .cache
 !*.[Cc]ache/
-
-..\build\app\outputs\flutter-apk\
-../build/app/outputs/apk/debug/
-..build\app\intermediates\
