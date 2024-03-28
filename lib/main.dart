@@ -3,11 +3,6 @@ import 'package:Squirrel/pages/HomePage.dart';
 import 'package:Squirrel/pages/SettingsPage.dart';
 import 'package:Squirrel/pages/profilePage.dart';
 
-//-------------------------------------------------//
-//             GOOGLE MAPS API KEY                 //
-//                                                 //
-//    AIzaSyABmL_-Th8phBAYqYQtltBjHE6twg_-l2c      //
-//-------------------------------------------------//
 
 
 void main() {

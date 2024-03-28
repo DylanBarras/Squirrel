@@ -59,7 +59,7 @@ class ProfilePage extends StatelessWidget {
         // Username Text
       
         const Text(
-          "Username", // TODO DATABASE VARIABLE USERNAME
+          "Username", // TODO DATABASE VARIABLE USERNAME  
       
           style: TextStyle(
             fontSize: 30,
@@ -112,7 +112,7 @@ class ProfilePage extends StatelessWidget {
               // Grid view
       
               child: GridView.builder(
-                  itemCount: 11,
+                  itemCount: 11, // TODO DATABASE VARIABLE NUM OF IMAGES
                   gridDelegate: const SliverGridDelegateWithFixedCrossAxisCount(
                       crossAxisCount: 3 // how many items in the ROW
                       ),
@@ -120,7 +120,7 @@ class ProfilePage extends StatelessWidget {
                   // this builds the elements in a grid format
                   itemBuilder: (context, index) {
                     return Stack(children: [
-                      const ProfileImageContainer(),
+                      const ProfileImageContainer(), // TODO DATABASE VARIABLE IMAGES
 
                       // DEBUG
                       Container(
@@ -128,7 +128,7 @@ class ProfilePage extends StatelessWidget {
                           child: Text(
                           (index + 1).toString(),
                       )),
-                    ]); // TODO DATABASE VARIABLE IMAGES
+                    ]); 
                   })),
         )
       ]),
