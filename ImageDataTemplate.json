@@ -1,0 +1,17 @@
+{
+    "UserData": {
+        
+        "QueryType": "AddImage",
+        "Username": "username",
+        "Lattitude": "float",
+        "Longitude": "float",
+        "Time": "HH:MM",
+        "Date": "MM/DD/YYYY",
+
+        "ImageData": {
+            "NumImages": "int",
+            "pic": "insert pic here"
+        }
+    }
+
+}

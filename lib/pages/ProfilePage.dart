@@ -121,7 +121,7 @@ class ProfilePage extends StatelessWidget {
                   itemBuilder: (context, index) {
                     return Stack(children: [
                       const ProfileImageContainer(), // TODO DATABASE VARIABLE IMAGES
-
+                      // make local structure for querying data
                       // DEBUG
                       Container(
                           alignment: Alignment.bottomCenter,
