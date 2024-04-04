@@ -1,33 +1,50 @@
 import "package:flutter/material.dart";
+import "package:google_maps_flutter/google_maps_flutter.dart";
 
 class HomePageButton extends StatelessWidget {
-  final double buttonSize;
-  final Icon buttonIcon;
-  final String tooltip;
+  final double buttonSize; // size of button
+  final Icon buttonIcon; // Icon to show
+  final String tooltip; // helper text on hover
+  final String? toPage; // page to be navigated to 
 
-  const HomePageButton(
+
+  
+
+  HomePageButton(
       {super.key,
       required this.tooltip,
       required this.buttonSize,
-      required this.buttonIcon});
+      required this.buttonIcon,
+      this.toPage});
   @override
   Widget build(BuildContext context) {
-    return Padding(
-      padding: const EdgeInsets.only(right: 8, left: 8, top: 8),
-      child: SizedBox(
-        height: buttonSize,
-        width: buttonSize,
-        child: FloatingActionButton(
-          onPressed: () {},
-          tooltip: tooltip,
-          focusColor: Colors.red[900],
-          hoverColor: Colors.red[800],
-          backgroundColor: Colors.red[900],
-          elevation: 0.0,
-          splashColor: Colors.amber[900],
-          child: Center(child: buttonIcon),
-        ),
-      ),
-    );
+
+      Color primary = Theme.of(context).colorScheme.primary;
+      Color secondary = Theme.of(context).colorScheme.onPrimary;
+
+      onPressed() {
+      Navigator.pushNamed(context, toPage!);
+  }
+
+
+    return 
+        Padding(
+          padding: EdgeInsets.all(5),
+          child: Material(
+            child: Ink(
+              decoration: ShapeDecoration( 
+                color: primary,
+                shape: const CircleBorder(),
+              ),
+              child: IconButton.filled(
+                icon: buttonIcon,
+                onPressed: onPressed,
+                iconSize: buttonSize,
+                tooltip: tooltip,
+                color: secondary,
+                ),
+            ),
+          ),
+        );
   }
 }

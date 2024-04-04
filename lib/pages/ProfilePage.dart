@@ -48,7 +48,7 @@ class ProfilePage extends StatelessWidget {
       
             // Profile Icon
       
-            child: const Icon(
+            child: const Icon( // TODO user specified icon / image
               CupertinoIcons.profile_circled,
               color: Colors.grey,
               size: 150,
@@ -75,7 +75,7 @@ class ProfilePage extends StatelessWidget {
             height: 100,
             width: 100,
             decoration: BoxDecoration(
-              color: Colors.red[900],
+              color: Theme.of(context).colorScheme.primary,
               shape: BoxShape.circle,
               boxShadow: const [
                 BoxShadow(
@@ -88,7 +88,7 @@ class ProfilePage extends StatelessWidget {
                   style: TextStyle(
                     fontSize: 50,
                     fontWeight: FontWeight.bold,
-                    color: Colors.amber[900],
+                    color: Theme.of(context).colorScheme.onPrimary,
                   )),
             ),
           ),

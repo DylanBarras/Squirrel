@@ -22,7 +22,7 @@ class SettingsPage extends StatelessWidget {
 
       ),
 
-      backgroundColor: Colors.red[900],
+      backgroundColor: Theme.of(context).colorScheme.primary,
 
       centerTitle: true,
 

@@ -1,12 +1,17 @@
-com.example.playground.app-jetified-annotation-experimental-1.1.0-0 C:\Users\dylan\.gradle\caches\transforms-3\09db32a73384ac2dccccf916d7dc0262\transformed\jetified-annotation-experimental-1.1.0\res
-com.example.playground.app-core-1.6.0-1 C:\Users\dylan\.gradle\caches\transforms-3\168e459aae59caaab0d2c703cf9d67ab\transformed\core-1.6.0\res
-com.example.playground.app-jetified-window-1.0.0-beta04-2 C:\Users\dylan\.gradle\caches\transforms-3\29fe38a5fd6c3bf46cd8e59c2b63489e\transformed\jetified-window-1.0.0-beta04\res
-com.example.playground.app-jetified-window-java-1.0.0-beta04-3 C:\Users\dylan\.gradle\caches\transforms-3\978180320ed1d29d66a82edc9d24751e\transformed\jetified-window-java-1.0.0-beta04\res
-com.example.playground.app-debug-4 C:\Users\dylan\Desktop\School\Software Engineering\Squirrel\android\app\src\debug\res
-com.example.playground.app-main-5 C:\Users\dylan\Desktop\School\Software Engineering\Squirrel\android\app\src\main\res
-com.example.playground.app-pngs-6 C:\Users\dylan\Desktop\School\Software Engineering\Squirrel\build\app\generated\res\pngs\debug
-com.example.playground.app-resValues-7 C:\Users\dylan\Desktop\School\Software Engineering\Squirrel\build\app\generated\res\resValues\debug
-com.example.playground.app-rs-8 C:\Users\dylan\Desktop\School\Software Engineering\Squirrel\build\app\generated\res\rs\debug
-com.example.playground.app-mergeDebugResources-9 C:\Users\dylan\Desktop\School\Software Engineering\Squirrel\build\app\intermediates\incremental\debug\mergeDebugResources\merged.dir
-com.example.playground.app-mergeDebugResources-10 C:\Users\dylan\Desktop\School\Software Engineering\Squirrel\build\app\intermediates\incremental\debug\mergeDebugResources\stripped.dir
-com.example.playground.app-merged_res-11 C:\Users\dylan\Desktop\School\Software Engineering\Squirrel\build\app\intermediates\merged_res\debug
+com.example.playground.app-jetified-play-services-basement-18.0.0-0 C:\Users\dylan\.gradle\caches\transforms-3\05599fbe1c1bec1c22424b7deccb8a80\transformed\jetified-play-services-basement-18.0.0\res
+com.example.playground.app-jetified-annotation-experimental-1.1.0-1 C:\Users\dylan\.gradle\caches\transforms-3\09db32a73384ac2dccccf916d7dc0262\transformed\jetified-annotation-experimental-1.1.0\res
+com.example.playground.app-core-1.6.0-2 C:\Users\dylan\.gradle\caches\transforms-3\168e459aae59caaab0d2c703cf9d67ab\transformed\core-1.6.0\res
+com.example.playground.app-jetified-window-1.0.0-beta04-3 C:\Users\dylan\.gradle\caches\transforms-3\29fe38a5fd6c3bf46cd8e59c2b63489e\transformed\jetified-window-1.0.0-beta04\res
+com.example.playground.app-jetified-play-services-maps-18.2.0-4 C:\Users\dylan\.gradle\caches\transforms-3\933f3bcd90026ce415bdca162ac5e719\transformed\jetified-play-services-maps-18.2.0\res
+com.example.playground.app-jetified-window-java-1.0.0-beta04-5 C:\Users\dylan\.gradle\caches\transforms-3\978180320ed1d29d66a82edc9d24751e\transformed\jetified-window-java-1.0.0-beta04\res
+com.example.playground.app-jetified-play-services-base-18.0.1-6 C:\Users\dylan\.gradle\caches\transforms-3\da836af96063471d9ecc25668dfd26c9\transformed\jetified-play-services-base-18.0.1\res
+com.example.playground.app-debug-7 C:\Users\dylan\Desktop\School\Software Engineering\Squirrel\android\app\src\debug\res
+com.example.playground.app-main-8 C:\Users\dylan\Desktop\School\Software Engineering\Squirrel\android\app\src\main\res
+com.example.playground.app-pngs-9 C:\Users\dylan\Desktop\School\Software Engineering\Squirrel\build\app\generated\res\pngs\debug
+com.example.playground.app-resValues-10 C:\Users\dylan\Desktop\School\Software Engineering\Squirrel\build\app\generated\res\resValues\debug
+com.example.playground.app-rs-11 C:\Users\dylan\Desktop\School\Software Engineering\Squirrel\build\app\generated\res\rs\debug
+com.example.playground.app-mergeDebugResources-12 C:\Users\dylan\Desktop\School\Software Engineering\Squirrel\build\app\intermediates\incremental\debug\mergeDebugResources\merged.dir
+com.example.playground.app-mergeDebugResources-13 C:\Users\dylan\Desktop\School\Software Engineering\Squirrel\build\app\intermediates\incremental\debug\mergeDebugResources\stripped.dir
+com.example.playground.app-merged_res-14 C:\Users\dylan\Desktop\School\Software Engineering\Squirrel\build\app\intermediates\merged_res\debug
+com.example.playground.app-packaged_res-15 C:\Users\dylan\Desktop\School\Software Engineering\Squirrel\build\flutter_plugin_android_lifecycle\intermediates\packaged_res\debug
+com.example.playground.app-packaged_res-16 C:\Users\dylan\Desktop\School\Software Engineering\Squirrel\build\google_maps_flutter_android\intermediates\packaged_res\debug
