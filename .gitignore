@@ -148,3 +148,5 @@ app.*.symbols
 !/packages/flutter_tools/test/data/dart_dependencies_test/**/.packages
 !/dev/ci/**/Gemfile.lock
 !.vscode/settings.json
+build/app/outputs/apk/debug/app-debug.apk
+build/app/outputs/flutter-apk/app-debug.apk

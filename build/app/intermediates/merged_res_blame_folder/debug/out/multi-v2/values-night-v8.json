@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "com.example.playground.app-mergeDebugResources-12:/values-night-v8/values-night-v8.xml",
+            "outputFile": "com.example.playground.app-mergeDebugResources-14:/values-night-v8/values-night-v8.xml",
             "map": [
                 {
                     "source": "C:\\Users\\dylan\\Desktop\\School\\Software Engineering\\Squirrel\\android\\app\\src\\main\\res\\values-night\\styles.xml",

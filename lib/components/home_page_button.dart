@@ -1,36 +1,32 @@
 import "package:flutter/material.dart";
-import "package:google_maps_flutter/google_maps_flutter.dart";
+import "package:flutter/widgets.dart";
 
 class HomePageButton extends StatelessWidget {
   final double buttonSize; // size of button
   final Icon buttonIcon; // Icon to show
   final String tooltip; // helper text on hover
-  final String? toPage; // page to be navigated to 
+  final void Function() onPressed; // page to be navigated to 
 
 
   
 
-  HomePageButton(
+  const HomePageButton(
       {super.key,
       required this.tooltip,
       required this.buttonSize,
       required this.buttonIcon,
-      this.toPage});
+      required this.onPressed});
   @override
   Widget build(BuildContext context) {
 
       Color primary = Theme.of(context).colorScheme.primary;
       Color secondary = Theme.of(context).colorScheme.onPrimary;
 
-      onPressed() {
-      Navigator.pushNamed(context, toPage!);
-  }
-
-
     return 
         Padding(
-          padding: EdgeInsets.all(5),
+          padding: const EdgeInsets.all(5),
           child: Material(
+            color: Colors.transparent,
             child: Ink(
               decoration: ShapeDecoration( 
                 color: primary,

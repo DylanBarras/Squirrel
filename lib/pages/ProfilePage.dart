@@ -48,10 +48,12 @@ class ProfilePage extends StatelessWidget {
       
             // Profile Icon
       
-            child: const Icon( // TODO user specified icon / image
-              CupertinoIcons.profile_circled,
-              color: Colors.grey,
-              size: 150,
+            child: const Center(
+              child:  Icon( // TODO user specified icon / image
+                CupertinoIcons.profile_circled,
+                color: Colors.grey,
+                size: 130,
+              ),
             ),
           ),
         ),
@@ -64,6 +66,7 @@ class ProfilePage extends StatelessWidget {
           style: TextStyle(
             fontSize: 30,
             fontWeight: FontWeight.bold,
+            color: Colors.black,
           ),
         ),
       
@@ -127,6 +130,7 @@ class ProfilePage extends StatelessWidget {
                           alignment: Alignment.bottomCenter,
                           child: Text(
                           (index + 1).toString(),
+                          style: TextStyle(color: Colors.black),
                       )),
                     ]); 
                   })),

@@ -2,16 +2,27 @@
     "UserData": {
         
         "QueryType": "AddImage",
-        "Username": "username",
+        "Username": "String",
         "Lattitude": "float",
         "Longitude": "float",
-        "Time": "HH:MM",
-        "Date": "MM/DD/YYYY",
+        "Time": "DateFormat HH:MM (String)",
+        "Date": "DateFormat MM/DD (String)",
+        "Activity": "String? (Could be null)",
+        "ImageData":"Path/XFile"
+            
+        
+    },
 
-        "ImageData": {
-            "NumImages": "int",
-            "pic": "insert pic here"
-        }
+
+    "MarkerData": {
+
+        "Lattitude": "Float",
+        "Longitude": "Float",
+        "User": "String",
+        "Time": "DateFormat HH:MM (String)",
+        "Date": "DateFormat MM/DD (String)" 
     }
 
+
 }
+
