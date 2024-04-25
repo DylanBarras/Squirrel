@@ -1,6 +1,6 @@
-
 import 'package:Squirrel/pages/CameraPage.dart';
 import 'package:Squirrel/pages/PostPage.dart';
+import 'package:Squirrel/pagesWeb/HomePageWeb.dart';
 import 'package:camera/camera.dart';
 import 'package:flutter/foundation.dart' show kIsWeb;
 import 'package:flutter/material.dart';
@@ -22,8 +22,6 @@ Future<void> main() async {
 
   runApp(MyApp(camera: firstCamera));
 }
-
-
 
 
 class MyApp extends StatefulWidget {
@@ -50,6 +48,8 @@ class _MyAppState extends State<MyApp> {
         'ProfilePage':(context) => const ProfilePage(),
         'CameraPage':(context) =>  CameraPage(camera: widget.camera),
         'PostPage':(context) => PostPage(imagePath: '',), 
+        'HomePageWeb' :(context) => const HomePageWeb(),
+
       },
       
       theme: ThemeData(
@@ -68,7 +68,4 @@ class _MyAppState extends State<MyApp> {
           onSurface: Colors.white,
         ),
       ),
-      home: const HomePage(),
-    );
-  }
-}
+      home: kIsWeb ? const Home
