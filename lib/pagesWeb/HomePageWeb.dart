@@ -2,6 +2,8 @@ import 'package:flutter/material.dart';
 import 'package:Squirrel/pagesWeb/UserManagementPage.dart';
 import 'package:Squirrel/pagesWeb/SubmissionReviewPage.dart';
 import 'package:Squirrel/pagesWeb/ReportManagementPage.dart';
+import 'package:Squirrel/components/squirrel_map.dart';
+
 
 void main() {
   runApp(const MyApp());
@@ -53,7 +55,7 @@ class _HomePageWebState extends State<HomePageWeb> with SingleTickerProviderStat
         bottom: TabBar( // declares a tabBar 
           controller: _tabController,
           tabs: const [
-            Tab(text: 'Home'),
+            Tab(text: 'Explore'),
             Tab(text: 'Submission Review'),
             Tab(text: 'User Management'),
             Tab(text: 'Report Management'),
@@ -64,7 +66,7 @@ class _HomePageWebState extends State<HomePageWeb> with SingleTickerProviderStat
         controller: _tabController, // state variable that controls tabs
         children: [
           // basic placeholder widgets for each page
-          Center(child: Text('Home')),
+          SquirrelMap(),
           SubmissionReviewPage(), // FIXME - Make submissions into "pictures", with verification buttons below them
           UserManagementPage(), // FIXME - Load in a couple placeholder users
           ReportManagementPage(), // FIXME - Reports only show "resolve" buttons, placeholder values here too
