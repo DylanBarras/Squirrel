@@ -68,4 +68,7 @@ class _MyAppState extends State<MyApp> {
           onSurface: Colors.white,
         ),
       ),
-      home: kIsWeb ? const Home
+      home: kIsWeb ? const HomePageWeb(): const HomePage(),
+    );
+  }
+}
